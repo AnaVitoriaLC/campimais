@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12355A">
+  <meta name="description" content="Campi+ — informações, serviços e ocorrências da infraestrutura do campus.">
+  <title>Campi+ | Infraestrutura do campus</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/home" aria-label="Campi+ — página inicial">Campi<span>+</span></a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#/home" data-nav="home">Início</a>
+        <a href="#/locations" data-nav="locations">Locais</a>
+        <a href="#/equipment" data-nav="equipment">Equipamentos</a>
+        <a href="#/services" data-nav="services">Serviços</a>
+        <a href="#/occurrences" data-nav="occurrences">Ocorrências</a>
+      </nav>
+      <button class="profile-button" type="button" aria-label="Abrir menu da conta" aria-expanded="false" title="Minha conta">
+        <span aria-hidden="true">U</span>
+      </button>
+      <div class="profile-popover" hidden></div>
+    </div>
+  </header>
+
+  <main id="main-content" class="page-shell" tabindex="-1">
+    <div class="loading-state">Carregando Campi+…</div>
+  </main>
+
+  <div class="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-brand">Campi+</span>
+      <span>Informações e infraestrutura do campus</span>
+      <a href="#/home">Voltar ao início ↑</a>
+    </div>
+  </footer>
+</body>
+
+</html>
