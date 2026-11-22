@@ -2,10 +2,6 @@
 
 Frontend demonstrativo do Campi+, feito com HTML, CSS e JavaScript sem bibliotecas externas.
 
-## Como abrir
-
-Extraia o ZIP e abra `index.html` no navegador. Para desenvolvimento, também pode iniciar um servidor local na pasta: `python -m http.server 8000`.
-
 ## Páginas
 
 - Início e pesquisa do catálogo.
